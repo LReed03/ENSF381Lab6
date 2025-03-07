@@ -15,7 +15,7 @@ function App() {
       <p>React Components</p>
       <p>{year}</p>
       {isLoggedIn ? <p>Welcome back!</p> : <p>Please log in.</p>}
-      <Home/>
+      <Home title="Home Page" message="Welcome to our website"/>
       <About/>
       <Contact/>
     </div>
