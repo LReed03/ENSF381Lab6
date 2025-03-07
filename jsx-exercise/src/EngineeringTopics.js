@@ -5,15 +5,24 @@ function EngineeringTopics() {
         {title: "Mechanical Engineering", description: "Designing machines and systems that shape the future."},
         {title: "Chemical Engineering", description: "Advancing processes for a sustainable future."}
         ];
-    return topics.map(function(item) {
         return (
             <div>
                 <h2>Engineering Topic</h2>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
+                {/* {topics.map(function(item) {
+                    <div>
+                        <h3>{item.title}</h3>
+                        <p>{item.description}</p>
+                    <div/>
+                }) */}
+                {topics.map((item)=>
+                    <div>
+                        <h3>{item.title}</h3>
+                        </div>
+                )}
+                
             </div>
         )
-    })
-}
+    }
+
 
 export default EngineeringTopics;
