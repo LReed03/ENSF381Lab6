@@ -3,6 +3,7 @@ import './App.css';
 import About from './About.js';
 import Home from './Home.js';
 import Contact from './Contact.js';
+import EngineeringTopics from './EngineeringTopics.js';
 
 function App() {
   const year = new Date().getFullYear();
@@ -18,6 +19,7 @@ function App() {
       <Home title="Home Page" message="Welcome to our website"/>
       <About title="About Us" message="We are passionate about delivering quality experiences"/>
       <Contact title="Contact us" message="Feel free to reach out to us via email or phone"/>
+      <EngineeringTopics/>
     </div>
   );
 }
