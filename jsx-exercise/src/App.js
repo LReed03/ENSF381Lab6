@@ -13,8 +13,8 @@ function App() {
     <div>
       <h1>ENSF-381: Full Stack Web Development</h1>
       <p>React Components</p>
-      <p>${year}</p>
-      isLoggedIn ?<p>Welcome back!</p> || <p>Please log in.</p>
+      <p>{year}</p>
+      {isLoggedIn ? <p>Welcome back!</p> : <p>Please log in.</p>}
       <Home/>
       <About/>
       <Contact/>
