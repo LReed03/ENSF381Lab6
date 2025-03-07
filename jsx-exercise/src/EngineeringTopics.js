@@ -8,15 +8,10 @@ function EngineeringTopics() {
         return (
             <div>
                 <h2>Engineering Topic</h2>
-                {/* {topics.map(function(item) {
-                    <div>
-                        <h3>{item.title}</h3>
-                        <p>{item.description}</p>
-                    <div/>
-                }) */}
                 {topics.map((item)=>
                     <div>
                         <h3>{item.title}</h3>
+                        <p>{item.description}</p>
                         </div>
                 )}
                 
