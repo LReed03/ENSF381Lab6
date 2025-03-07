@@ -1,7 +1,11 @@
-function Home() {
+function Home(props) {
 
     return (
-        <p>Welcome to the Home Page!</p>
+        <div>
+            <h1>{props.title}</h1>
+            <p>Welcome to the Home Page!</p>
+            <p>{props.message}</p>
+        </div>
     );
   }
 
